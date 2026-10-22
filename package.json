@@ -1,0 +1,26 @@
+{
+  "name": "backend-unidad8",
+  "version": "1.0.0",
+  "description": "API de tareas con Express y PostgreSQL desplegada en Render",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "ci": "^2.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "morgan": "^1.10.0",
+    "npm": "^12.2.1",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  }
+}
